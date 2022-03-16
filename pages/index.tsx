@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Vercel from '../public/another.svg';
+import Vercel from '../public/another.svg'
 
 const Home: NextPage = () => {
   return (
@@ -12,16 +12,15 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <Image src={Vercel} width="65" height="65" className='text-5x' />
-        <h1 className="text-4xl font-bold mt-5">
-          Next.js + Tailwind + TypeScript {' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Starter!
-          </a>
+        <Image src={Vercel} width="65" height="65" className="text-5x" />
+        <h1 className="mt-7 text-4xl font-bold">
+          Next.js + Tailwind + TypeScript{' '}
+          <span className="text-blue-600">Starter!</span>
         </h1>
 
-        <p className="mt-3 text-xl">
-          Also comes with FormSpree and Google Analytics.
+        <p className="mt-4 text-xl">
+          Also comes with <span className="text-blue-600">FormSpree</span> and{' '}
+          <span className="text-blue-600">Google Analytics</span> integrated.
         </p>
       </main>
 
