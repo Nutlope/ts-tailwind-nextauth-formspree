@@ -19,8 +19,8 @@ const Home: NextPage = () => {
         </h1>
 
         <p className="mt-4 text-xl">
-          Also comes with <span className="text-blue-600">FormSpree</span> and{' '}
-          <span className="text-blue-600">Google Analytics</span> integrated.
+          Comes with <span className="text-blue-600">NextAuth.js</span> and{' '}
+          <span className="text-blue-600">FormSpree</span> integrated.
         </p>
       </main>
 
